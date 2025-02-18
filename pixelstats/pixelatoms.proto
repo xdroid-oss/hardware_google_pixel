@@ -3180,7 +3180,7 @@ message MediaPlaybackUsageStatsReported {
   optional float volume = 10;
 
   /* Average power in milliwatts. -1 if unavailable. */
-  optional float average_power = 11 [deprecated = true];
+  optional float average_power = 11;
 
   /* Sample rate used in the media playback. */
   optional int32 sample_rate = 12;
